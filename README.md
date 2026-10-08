@@ -1,9 +1,11 @@
 # travisseitler.github.io
 
-Project websites hosted with GitHub Pages.
+A personal project landing page hosted with GitHub Pages.
 
-- [Jot & Tittle](jot-and-tittle/README.md): project homepage, guide, and privacy information at [travisseitler.github.io/jot-and-tittle/](https://travisseitler.github.io/jot-and-tittle/).
+- [Jot & Tittle](https://travisseitler.github.io/jot-and-tittle/): homepage, guide,
+  privacy information, and browser app, published by the
+  [application repository](https://github.com/travisseitler/jot-and-tittle).
 
-The top-level landing page is plain HTML in `index.html`.
-The Pages workflow copies it to the site root and builds each project into its own directory in the published site.
-See each project’s README for local preview instructions.
+This repository's `Project links` workflow publishes only `index.html`.
+Each project's own repository builds and deploys its Pages site independently.
+Set **Settings → Pages → Source** to **GitHub Actions** in each repository.
